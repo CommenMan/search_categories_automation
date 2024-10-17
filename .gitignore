@@ -1,0 +1,15 @@
+
+
+# Ignore node_modules folder
+node_modules
+
+
+*.*
+
+#unignore files
+!package.json
+!retrive_from_csv.js
+!retriveImageURl.js 
+!download.js 
+!categories_september2024.csv 
+!README.md
