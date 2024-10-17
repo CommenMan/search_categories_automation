@@ -1,0 +1,22 @@
+{
+  "name": "test_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "run-all": "node retrive_from_csv.js && node retriveImageURL.js && node download.js",
+     "createJSON":"node retrive_from_csv.js ",
+     "retrieveURL": "node retriveImageURL.js",
+     "download": "node download.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "image-downloader": "^4.3.0",
+    "papaparse": "^5.4.1",
+    "puppeteer": "^23.4.1"
+  }
+}
